@@ -29,6 +29,7 @@ body {
           background-color: #fff;
           color: #444;
           height: 40em;
+          border: 0.5em solid #1fe453;
       }
   
     .wrapper {
