@@ -1,13 +1,12 @@
 body {
   margin: 40px;
-  background-color: crimson;
-  background-color: #273052;
+  background-color: orange;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 .box:hover {
-  background-color: bisque;
+  background-color: aqua;
 }
 
 .sidebar {
