@@ -20,6 +20,10 @@ body {
       .header {
           grid-area: header;
       }
+
+      .rangeeExtra {
+          grid-area: rangeeExtra;
+      }
   
       .footer {
           grid-area: footer;
@@ -40,6 +44,7 @@ body {
        "sidebar"
        "content"
        "sidebar2"
+       "rangeeExtra"
        "footer"
     }
   
@@ -51,6 +56,7 @@ body {
       "header   header"
           "sidebar  content"
           "sidebar2 sidebar2"
+          "rangeeExtra rangeeExtra"
           "footer   footer";
       }
       }
@@ -62,6 +68,7 @@ body {
               grid-template-areas:
         "header  header  header"
               "sidebar content sidebar2"
+              "rangeeExtra rangeeExtra rangeeExtra"
               "footer  footer  footer";
           }
       }

@@ -29,8 +29,14 @@ body {
   grid-area: header;
 }
 
-.footer {
+.rangeeExtra {
   -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: rangeeExtra;
+}
+
+.footer {
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: footer;
 }
@@ -46,14 +52,14 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 1em;
-      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
+      grid-template-areas: "header" "sidebar" "content" "sidebar2" "rangeeExtra" "footer";
 }
 
 @media only screen and (min-width: 500px) {
   .wrapper {
     -ms-grid-columns: 20% auto;
         grid-template-columns: 20% auto;
-        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "rangeeExtra rangeeExtra" "footer   footer";
   }
 }
 
@@ -62,7 +68,7 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
+        grid-template-areas: "header  header  header" "sidebar content sidebar2" "rangeeExtra rangeeExtra rangeeExtra" "footer  footer  footer";
   }
 }
 
