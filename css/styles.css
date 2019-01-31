@@ -1,8 +1,13 @@
 body {
   margin: 40px;
   background-color: crimson;
+  background-color: #273052;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+.box:hover {
+  background-color: bisque;
 }
 
 .sidebar {
@@ -42,7 +47,7 @@ body {
 }
 
 .wrapper {
-  background-color: #fff;
+  background-color: #b360ff;
   color: #444;
   height: 40em;
   border: 0.5em solid #1fe453;
@@ -68,7 +73,7 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header" "sidebar content sidebar2" "sidebar rangeeExtra sidebar2" "footer  footer  footer";
+        grid-template-areas: "header  header  sidebar2" "sidebar content sidebar2" "sidebar rangeeExtra sidebar2" "sidebar  footer  footer";
   }
 }
 
@@ -82,7 +87,7 @@ body {
 
 .header,
 .footer {
-  background-color: #7289DA;
+  background-color: #a93737;
 }
 
 .sidebar2 {
